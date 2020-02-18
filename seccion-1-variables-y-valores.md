@@ -1,6 +1,8 @@
 
 #✨ Variables y valores ✨ 
 
+Introduction
+-------
 ##Valores
 
 En JavaScript existen diferentes tipos de valores primitivos: String, Number, Boolean, undefined, Null, and Symbol.
