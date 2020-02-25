@@ -7,7 +7,7 @@
 Los tipos de data o valores pueden dividirse en dos grupos: 
 
 1. [Primitivos](#Primitivos) *(Primitive data types)*
-   1. [Números](#Números:)
+   1. [Números](#Números)
    2. [Cadenas de texto](#Cadenas-de-texto) *(Strings)*
    3. [Booleans](#Booleans)
    4. [Undefined](#Undefined)
