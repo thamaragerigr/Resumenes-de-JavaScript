@@ -58,7 +58,8 @@ Los valores textuales en JavaScript representan una **serie de carácteres** den
      "Me gustan las mandarinas"
      `¡¡A tope con el JavaScript!!`
 
->Se pueden utilizar comillas simple, dobles o 'backticks'( ` ), siempre y cuando se use el mismo tipo al abrir y cerrar.
+>Se pueden utilizar comillas simple, dobles o 'backticks'( `` ), siempre y cuando se use el mismo tipo al abrir y cerrar.
+
 
 
 Las cadenas de texto pueden ser **concatenadas**, es decir juntarlas entre si usando el símbolo de +:
@@ -79,14 +80,14 @@ Son valores que distinguen entre dos posibilidades únicamente, `true` y `false`
      console.log('itchy' = 'scratchy')
      //false
 
- Los valores tienen por defecto un valor booleano y se clasifican en * Truthy *  y * Falsy *
+ Los valores tienen por defecto un valor booleano y se clasifican en *Truthy *  y *Falsy*
 
- ** Valores Truthy **: Todos los valores son truthy (números positivos y negativos, todas las cadenas de texto y el `true` booleano) a menos de que sean definidos como falsy o en el caso de algunas excepciones.
+ **Valores Truthy**: Todos los valores son truthy (números positivos y negativos, todas las cadenas de texto y el `true` booleano) a menos de que sean definidos como falsy o en el caso de algunas excepciones.
 
 
 > Algunos valores truthy interesantes son : el cero y la palabra false como cadenas de texto ('0', 'false'). También lo son un array vacio ([]), un objeto vacio ({}) y una función vacía ( function(){} ).
 
-** Valores Falsy **: El único valor numérico * falsy * es el 0 (sin comillas!). Tambien 0n, null, undefined, NaN, el `false` booleano y las comillas vacías ( ' ', " " ).
+**Valores Falsy**: El único valor numérico *falsy* es el 0 (sin comillas!). Tambien 0n, null, undefined, NaN, el `false` booleano y las comillas vacías ( ' ', " " ).
 
 
 ### Undefined
@@ -97,7 +98,6 @@ Son valores que distinguen entre dos posibilidades únicamente, `true` y `false`
     //undefined 
 
 ### Null
-
  Son variables o valores vacios. 
 
      let empty = null
@@ -106,7 +106,6 @@ Son valores que distinguen entre dos posibilidades únicamente, `true` y `false`
 
 
 ### Symbol
-
 Representa un identificador único. Son constantes que tienen algunas propiedades extras, que nos permiten trabajar mejor en debug y guardar valores.
 
     var dos = Symbol("foo");
@@ -123,7 +122,6 @@ Las variables a las que se les asignan estos valores obtienen una referencia que
 
 
 ### Arrays
-
 Son colecciones ordendas de valores, cada valor dentro de ellos posee una posición númerica (** index **).Son utitlizados para almacenar listas de elementos y acceder a ellos en una misma variable 
 
     let frutasGuays = ["Manzana", "Fresa", "Mandarina"];
@@ -139,7 +137,6 @@ Dentro de estos se pueden almacenar cualquier tipo de valor, ya sean strings, bo
     let cosas = [ 82, true, 'Domingo'];
 
 ### Funciones
-
 Una función es conjunto de ** declaraciones que realiza una tarea o calcula un valor. **
 
 Son objetos de primera clase, es decir, son objetos y se pueden manipular y transmitir al igual que cualquier otro objeto. Concretamente son objetos `Function`.
@@ -150,7 +147,6 @@ Son objetos de primera clase, es decir, son objetos y se pueden manipular y tran
 
 
 ### Objetos
-
 Es una colección de datos relacionados y / o funcionalidad (que generalmente consta de varias variables y funciones, que se denominan propiedades y métodos cuando están dentro de objetos).
 
      const persona = {
