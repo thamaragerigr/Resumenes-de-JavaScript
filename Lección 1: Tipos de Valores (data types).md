@@ -41,7 +41,7 @@ Existen tres valores numéricos especiales:
     0/0 //NaN
     1 + NaN//NaN
 
->NaN es el único valor que no es igual a si mismo. Esto se debe a que NaN representa el resultado de una ‘nonsensical computation’, por lo tanto no es igual a cualquier otra de su tipo.
+> 🤓 Nota: NaN es el único valor que no es igual a si mismo. Esto se debe a que NaN representa el resultado de una ‘nonsensical computation’, por lo tanto no es igual a cualquier otra de su tipo.
 
     console.log( NaN == NaN)//false
 
@@ -58,7 +58,7 @@ Los valores textuales en JavaScript representan una **serie de carácteres** den
      "Me gustan las mandarinas"
      `¡¡A tope con el JavaScript!!`
 
->Se pueden utilizar comillas simple, dobles o 'backticks'( `` ), siempre y cuando se use el mismo tipo al abrir y cerrar.
+> 🤓 Nota: Se pueden utilizar comillas simple, dobles o 'backticks'( `` ), siempre y cuando se use el mismo tipo al abrir y cerrar.
 
 
 
@@ -85,7 +85,7 @@ Son valores que distinguen entre dos posibilidades únicamente, `true` y `false`
  **Valores Truthy**: Todos los valores son truthy (números positivos y negativos, todas las cadenas de texto y el `true` booleano) a menos de que sean definidos como falsy o en el caso de algunas excepciones.
 
 
-> Algunos valores truthy interesantes son : el cero y la palabra false como cadenas de texto ('0', 'false'). También lo son un array vacio ([]), un objeto vacio ({}) y una función vacía ( function(){} ).
+>🤓 Nota: Algunos valores truthy interesantes son : el cero y la palabra false como cadenas de texto ('0', 'false'). También lo son un array vacio ([]), un objeto vacio ({}) y una función vacía ( function(){} ).
 
 **Valores Falsy**: El único valor numérico *falsy* es el 0 (sin comillas!). Tambien 0n, null, undefined, NaN, el `false` booleano y las comillas vacías ( ' ', " " ).
 
