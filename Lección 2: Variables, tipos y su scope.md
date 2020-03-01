@@ -1,7 +1,7 @@
 # 💡 Lección 2: Variables, tipos y su scope
 
 1. [Variables](#Variables)
-2. [Variables](#Variables)
+2. [El scope ¿Qué es y cómo se come?](#Variables)
 3. [Tipos de Variable](#Tipos-de-variable)
    1. [var](#var)
    2. [¿Por qué no deberíamos usar var?](#¿Por-qué-no-deberíamos-usar-var?)
