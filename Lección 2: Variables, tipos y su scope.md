@@ -4,10 +4,10 @@
 2. [El scope : ¿Qué es y cómo se come?](#El-scope-:-¿Qué-es-y-cómo-se-come?)
 3. [Tipos de Variable](#Tipos-de-variable)
    1. [var](#var)
-   2. [¿Por qué no deberíamos usar `var`?](#¿Por-qué-no-deberíamos-usar-`var`?)
+   2. [¿Por qué no deberíamos usar var?](#¿Por-qué-no-deberíamos-usar-var?)
    3. [let](#let)
    4. [const](#const)
-   5. [Decidiendo entre let y const](#Decidiendo-entre-`let`-y-`const`)
+   5. [Decidiendo entre let y const](#Decidiendo-entre-let-y-const)
 
 ## Variables
 
@@ -110,7 +110,7 @@ Todo esto muy bien pero el problema de `var` es el scope que genera, es decir el
 
 La primera impresión es que, para el segundo for loop, se esta creando una nueva variable **i**, pero en realidad lo que esta sucediendo es que se utiliza la misma variable para ambos for loops, por lo que para el segundo loop, la variable es igual a 3 (el 'length' de la primera línea de la matriz), la condición vuelve 'false', el loop para y solo se imprime 1 2 3.
 
-### ¿Por qué no deberíamos usar `var`?
+### ¿Por qué no deberíamos usar var?
 
 Porque con la introducción de `let`, `const` y el **block scope** se puede trabajar más fácilmente a la hora de declarar variables como hemos visto en el ejemplo anterior. E incluso otros lenguajes de programación si que cuentan con el **Block scope** también!
 
@@ -155,7 +155,7 @@ En otras palabras, `const` significa que el 'binding' (la asociación entre el n
 
 Aquí se puede observar cómo valores declarados con `const` si pueden ser mutados.
 
-### Decidiendo entre `let` y `const`
+### Decidiendo entre let y const
 
 Para decidir es recomendado seguir las siguientes dos reglas:
 
