@@ -1,7 +1,7 @@
 # 💡 Lección 2: Variables, tipos y su scope
 
 1. [Variables](#Variables)
-2. [El scope ¿Qué es y cómo se come?](#El-scope-¿Qué-es-y-cómo-se-come?)
+2. [El scope](#El-scope)
 3. [Tipos de Variable](#Tipos-de-variable)
    1. [var](#var)
    2. [¿Por qué no deberíamos usar var?](#¿Por-qué-no-deberíamos-usar-var?)
@@ -15,7 +15,7 @@ Una **variable** es un elemento que se emplea para almacenar y hacer referencia 
 
 A la hora de programar, `var`, `let` y `const` tienen ciertas diferencias que debemos conocer. Para ello es necesario tener claro el espacio en el que se encuentran y su entorno, es decir, el **'scope'**.
 
-## El scope ¿Qué es y cómo se come?
+## El scope
 
 El **‘scope’** se define como el espacio de visibilidad de una variable, es decir, que no es posible verla y acceder a su valor fuera del scope en el que fue declarada.
 
