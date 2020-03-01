@@ -1,10 +1,10 @@
 # 💡 Lección 2: Variables, tipos y su scope
 
 1. [Variables](#Variables)
-2. [El scope:¿Qué es y cómo se come?](#El-scope:¿Qué-es-y-cómo-se-come?)
+2. [El scope ¿Qué es y cómo se come?](#El-scope:¿Qué-es-y-cómo-se-come?)
 3. [Tipos de Variable](#Tipos-de-variable)
    1. [var](#var)
-   2. [¿Por qué no deberíamos usar var?](#¿-Por-qué-no-deberíamos-usar-var-?)
+   2. [¿Por qué no deberíamos usar var?](#¿Por-qué-no-deberíamos-usar-var?)
    3. [let](#let)
    4. [const](#const)
    5. [Decidiendo entre let y const](#Decidiendo-entre-let-y-const)
