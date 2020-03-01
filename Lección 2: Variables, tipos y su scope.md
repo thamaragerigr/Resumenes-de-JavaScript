@@ -15,7 +15,7 @@ Una **variable** es un elemento que se emplea para almacenar y hacer referencia 
 
 A la hora de programar, `var`, `let` y `const` tienen ciertas diferencias que debemos conocer. Para ello es necesario tener claro el espacio en el que se encuentran y su entorno, es decir, el **'scope'**.
 
-## El scope : ¿Qué es y cómo se come?
+## El scope ¿Qué es y cómo se come?
 
 El **‘scope’** se define como el espacio de visibilidad de una variable, es decir, que no es posible verla y acceder a su valor fuera del scope en el que fue declarada.
 
