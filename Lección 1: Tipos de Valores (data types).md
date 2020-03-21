@@ -58,7 +58,7 @@ Los valores textuales en JavaScript representan una **serie de carácteres** den
      "Me gustan las mandarinas"
      `¡¡A tope con el JavaScript!!`
 
-> 🤓 Nota: Se pueden utilizar comillas simple, dobles o 'backticks'( `` ), siempre y cuando se use el mismo tipo al abrir y cerrar.
+> ⚠️ Se pueden utilizar comillas simple, dobles o 'backticks'( `` ), siempre y cuando se use el mismo tipo al abrir y cerrar.
 
 
 
@@ -85,7 +85,7 @@ Son valores que distinguen entre dos posibilidades únicamente, `true` y `false`
  **Valores Truthy**: Todos los valores son truthy (números positivos y negativos, todas las cadenas de texto y el `true` booleano) a menos de que sean definidos como falsy o en el caso de algunas excepciones.
 
 
->🤓 Nota: Algunos valores truthy interesantes son : el cero y la palabra false como cadenas de texto ('0', 'false'). También lo son un array vacio ([]), un objeto vacio ({}) y una función vacía ( function(){} ).
+>⚠️ Algunos valores truthy interesantes son : el cero y la palabra false como cadenas de texto ('0', 'false'). También lo son un array vacio ([]), un objeto vacio ({}) y una función vacía ( function(){} ).
 
 **Valores Falsy**: El único valor numérico *falsy* es el 0 (sin comillas!). Tambien 0n, null, undefined, NaN, el `false` booleano y las comillas vacías ( ' ', " " ).
 
