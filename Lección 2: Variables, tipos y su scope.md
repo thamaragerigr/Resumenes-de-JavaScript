@@ -85,7 +85,7 @@ Si intentamos acceder a su valor antes de que se asigne, obtendremos **undefined
      console.log(v); // undefined
      var v = 0;
 
->Si el hoisting no sucediera, la consola devolvería un 'ReferenceError: v is not defined'.
+> Si el hoisting no sucediera, la consola devolvería un 'ReferenceError: v is not defined'.
 
 Todo esto muy bien pero el problema de `var` es el scope que genera, es decir el ámbito que crea para la variable en cuestión ya que **su scope esta definido por la función (function scope).**
 
@@ -127,7 +127,7 @@ Asimismo, estas son variables que **pueden mutar el 'binding' con su valor** y s
        animal = 'Loro'; 🦜
        console.log(animal); // ✅ 'Loro' 🦜
 
-El hoisting que habiamos comentado antes  no sucede con las variables let y const, con ellas siempre se obtendrá un 'ReferenceError' si se intenta acceder a su valor antes de ser declaradas:
+El hoisting que habiamos comentado antes no sucede con las variables let y const, con ellas siempre se obtendrá un 'ReferenceError' si se intenta acceder a su valor antes de ser declaradas:
 
      console.log(animal); // ReferenceError: animal is not defined
      let animal = 'Loro'; 🦜
@@ -159,15 +159,20 @@ Aquí se puede observar cómo valores declarados con `const` si pueden ser mutad
 
 Para decidir es recomendado seguir las siguientes dos reglas:
 
-- Prefiere usar `const` ya que indica un binding inmutable y que el valor de la variable no cambiará. 
+- Prefiere usar `const` ya que indica un binding inmutable y que el valor de la variable no cambiará.
 
 - Usa `let`cuando no puedas usar const`.
 
-
 Y para resumir:
 
-| Tipo de variable | Características | Scope |
-| ---------------- | -------------------------------------------------------------------- | ----- | 
-| Var              | Nos permite mutar el valor de una variable en cualquier punto. También son 'hoisted'                                                        |    Function Scope   |
-| Let              | Crea un scope y evita que podamos sobre escribir valores fuera de su scope. También se puede cambiar su valor.       No son 'hoisted'                                                                                |    Block Scope   |
-| Const            | Fue pensado para asignar valores que no queremos muta y que sabemos que son constantes. No son 'hoisted'          |    Block Scope     |
+| Tipo de variable | Características                                                                                                                 | Scope          |
+| ---------------- | ------------------------------------------------------------------------------------------------------------------------------- | -------------- |
+| Var              | Nos permite mutar el valor de una variable en cualquier punto. También son 'hoisted'                                            | Function Scope |
+| Let              | Crea un scope y evita que podamos sobre escribir valores fuera de su scope. También se puede cambiar su valor. No son 'hoisted' | Block Scope    |
+| Const            | Fue pensado para asignar valores que no queremos muta y que sabemos que son constantes. No son 'hoisted'                        | Block Scope    |
+
+
+
+Después de  estudiar Bellas Artes me di cuenta que programar es mi verdadera pasión y el aspecto Front-End en su totalidad. Recientemente terminé el desarrollo de un proyecto formtivo en conjunto con Fundación Telefónica y la Cámara de Comercio de Madrid, a través del programa Desarrollo Web Front-End de PICE (Plan de Empleo Joven). Asimismo, he culminado diversos curso paralelos, incluidos temas de experiencia de usuario y interactividad.
+
+  Actualmente me encuentro en la búsqueda de una  experiencia profesional que me permita aplicar y adquirir conocimientos en el sector. Durante mi poca experiencia profesional, he podido realizar diferentes proyectos y he participado en múltiples cursos formativos, los cuales me han permitido trabajar en lo aprendido durante mi carrera y reafirmar mis ganas de crecer en este sector que tanto me apasiona.
