@@ -24,6 +24,9 @@ In JavaScript and other programming languages the key word if use to check if a 
 - operadores ternarios (ternary operators)Another way to write conditionals is using ternary operators. We have covered this in other sections but we should also mention it here.
 
 
+
+
+
 if
 if else
 if else if else
