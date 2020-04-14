@@ -1,19 +1,38 @@
-# 💡 Lección 3: Condicionales 
+# 💡 Lección 3: Condicionales
 
-Los condicionales son partes de código que determinan si algo se ejecutará o no.
+* [Condicionales](#💡Lección-3-:-Condicionales) 
+   1. [if](#if)
+   2. [if else](#if-else) 
+   3. [if else if else](#if-else-if-else)
+   4. [switch](#switch)
+   5. [ternary operator](#ternary-operator)
+    
+Los condicionales son partes de código que determinan si algo se ejecutará o no. 
 
-<!-- Conditional statements are used to decision based on different conditions. By default , statements in JavaScript script executed sequentially from top to bottom. If the processing logic require so, the sequential flow of execution can be altered in two ways:
+Por regla general, las declaraciones en JavaScript son ejecutadas en secuencia desde arriba para abajo. El flujo de ejecución puede ser alterado de dos maneras:
 
-Conditional execution: a block of one or more statements will be executed if a certain expression is true
-
-Repetitive execution: a block of one or more statements will be repetitively executed as long as a certain expression is true.
-
- -->
+* Condicionales
+* Ejecución repetitiva (loops)
 
 Existen diferentes tipos de condicionales en JS:
 
-- if  where if a condition is true it is used to specify execution for a block of code.
-In JavaScript and other programming languages the key word if use to check if a condition is true and to execute the block code. To create an if condition, we need if keyword, condition inside a parenthesis and block of code inside a curly bracket({}).
+### if 
+
+Dicta que si la condición es verdadera, el bloque de código que le sigue será ejecutado. Para crear un *if statement*, utilizamos la palabra 'if' seguida de la condición entre paréntesis y el bloque de código a ejecutar entre llaves ({}).
+
+        if (condition) {
+            //  block of code to be executed if the condition is true
+        }
+        -------------------------------------------------------------
+        if ( número == 1 ) {
+          saludo = "Buenos días";
+          console.log(saludo);
+        }
+        
+        //"Buenos días"
+
+### if else
+
 
 - if else where if the same condition is false it specifies the execution for a block of code.If condition is true the first block will be executed, if not the else condition will be executed.
 
