@@ -170,9 +170,3 @@ Y para resumir:
 | Var              | Nos permite mutar el valor de una variable en cualquier punto. También son 'hoisted'                                            | Function Scope |
 | Let              | Crea un scope y evita que podamos sobre escribir valores fuera de su scope. También se puede cambiar su valor. No son 'hoisted' | Block Scope    |
 | Const            | Fue pensado para asignar valores que no queremos muta y que sabemos que son constantes. No son 'hoisted'                        | Block Scope    |
-
-
-
-Después de  estudiar Bellas Artes me di cuenta que programar es mi verdadera pasión y el aspecto Front-End en su totalidad. Recientemente terminé el desarrollo de un proyecto formtivo en conjunto con Fundación Telefónica y la Cámara de Comercio de Madrid, a través del programa Desarrollo Web Front-End de PICE (Plan de Empleo Joven). Asimismo, he culminado diversos curso paralelos, incluidos temas de experiencia de usuario y interactividad.
-
-  Actualmente me encuentro en la búsqueda de una  experiencia profesional que me permita aplicar y adquirir conocimientos en el sector. Durante mi poca experiencia profesional, he podido realizar diferentes proyectos y he participado en múltiples cursos formativos, los cuales me han permitido trabajar en lo aprendido durante mi carrera y reafirmar mis ganas de crecer en este sector que tanto me apasiona.
