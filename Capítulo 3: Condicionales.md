@@ -2,7 +2,7 @@
 
 * [Condicionales](#💡Lección-3-:-Condicionales) 
    1. [if](#if)
-   2. [if else](#if-else) 
+   2. [else](#else) 
    3. [if else if else](#if-else-if-else)
    4. [switch](#switch)
    5. [ternary operator](#ternary-operator)
@@ -31,10 +31,10 @@ Dicta que si la condición es verdadera, el bloque de código que le sigue será
         
         //"Buenos días"
 
-### if else
+### else
 
+If condition is true the first block will be executed, if not the else condition will be executed.
 
-- if else where if the same condition is false it specifies the execution for a block of code.If condition is true the first block will be executed, if not the else condition will be executed.
 
 - if else if else this specifies a new test if the first condition is false.On our daily life, we make decision on daily basis. We make decision not by checking one or two conditions instead we make decisions based on multiple conditions. As similar to our daily life, programming is also full conditions. We use else if when we have multiple conditions.
 
