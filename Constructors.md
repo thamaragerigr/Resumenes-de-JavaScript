@@ -21,5 +21,5 @@ Un constructor puede utilizar la palabra clave **super** para llamar al construc
 
     set area(value) {
         this.area = value;
-    } 
+    }  
     }
