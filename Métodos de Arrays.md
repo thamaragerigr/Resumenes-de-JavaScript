@@ -115,8 +115,8 @@ Devuelve el valor del **primer elemento** del array que cumpla con los parámetr
     ))
 
 ### filter(👓)
- 
- Crea un **nuevo array** con todos los elementos que cumpla con los parámetros de la función.
+
+Crea un **nuevo array** con todos los elementos que cumpla con los parámetros de la función.
 
     const num = [9,8,7,6,5,4,3,2,1];
     const oods = nums.filter(n => {
@@ -129,10 +129,9 @@ Devuelve el valor del **primer elemento** del array que cumpla con los parámetr
 
 ### some(🧑‍🤝‍🧑) & every(🤼)
 
-Ambos son métodos **booleanos** (devuelven true o false). 
+Ambos son métodos **booleanos** (devuelven true o false).
 
 **Every** acepta una callback que en sí es boleano, prueba si todos los elementos de un array pasan los parámetros de la funcción.
-
 
     const words = ['dog','dig','log','bag','wag'];
     const all3Lets = words.every(word => word.length === 3);
@@ -162,6 +161,7 @@ Para personalizar el método .sort() se tiene que agregar una función comparado
 - Si ‘compareFunc(a,b)’ devuelve más de 0 (número positivo)→ ordenar b antes que a.
 
 ---
+
     const prices = [400, 3000,99,35,12];
     prices.sort();
     //orden ascendiente
@@ -171,7 +171,7 @@ Para personalizar el método .sort() se tiene que agregar una función comparado
     35     12  + //coloca a 12(b) antes que 35(a) porque el número es positivo
     //orden descendiente
     const descsort1 = prices.sort((a,b) => b - a);
-    b      a 
+    b      a
     3000   400 + //coloca a 3000(b) antes que 400(a) porque el número es positivo
     12     35  - //coloca a 12(b) después que 35(a) porque el número es negativo
 
@@ -203,11 +203,11 @@ También se puede utilizar para encontrar el máximo valor en un array.
 
     //max  currVal return
     //87    64      87
-    //87    96      96 
+    //87    96      96
     //96    92      96...
 
     //maxGrade
-    //99   
+    //99
 
 El mismo resultado se puede obtener utilizando Math.min/max
 
@@ -228,16 +228,65 @@ También se puede especificar el valor con el que comienza el reduce
     return sum + currVal;
     },1000)
 
+### pop(🍿)
+
+Remueve el último elemento de un array y devuelve ese elemento. Cambia la longitud del array.
+
+    let gatos = ['Bob', 'Willy', 'Mini'];
+    console.log(gatos.pop()); // 'Mini'
+    console.log(gatos); // ['Bob', 'Willy']
+
+### push(🚲)
+
+Añade uno o más elementos al final de un array y a diferencia de pop(), devuelve la nueva longitud del array
+
+    const animales = ['cerdo', 'cabra', 'oveja'];
+    const cuenta = animals.push('vaca');
+    console.log(cuenta); // 4
+    console.log(animales); // ['cerdo', 'cabra', 'oveja', 'vaca]
+
+### shift(➖)
+
+Remueve el primer elemento de un array y devuelve ese elemento. Cambia la longitud del array.
+
+    const miPescado = ['ángel', 'payaso', 'mandarín', 'cirujano'];
+    const eliminado = miPescado.shift(); 
+    console.log('Elemento eliminado: ' + eliminado);  // "Elemento eliminado: ángel"
+
+### unshift(➕)
+
+Añade uno o más elementos al inicio  de un array y a diferencia de pop(), devuelve la nueva longitud del array
+
+    const array1 = [1, 2, 3];
+
+    console.log(array1.unshift(4, 5));
+    // expected output: 5
+
+    console.log(array1);
+    // expected output: Array [4, 5, 1, 2, 3]
+
+### splice(💅)
+
+Cambia el contenido de un array eliminando elementos existentes y/o agregando nuevos elementos.
+
+    const months = ['Jan', 'March', 'April', 'June'];
+    months.splice(1, 0, 'Feb');
+    // inserts at index 1
+    console.log(months);
+    // expected output: Array ["Jan", "Feb", "March", "April", "June"]
+
+### slice(🍰)
+
+ Devuelve una copia de una parte del array dentro de un nuevo array empezando por inicio hasta fin (fin no incluido). El array original no se modificará.
+
+    const nombres = ['Rita', 'Pedro', 'Miguel', 'Ana', 'Vanesa'];
+    const masculinos = nombres.slice(1, 3);
+
+    // masculinos contiene ['Pedro','Miguel']
 
 - toString()
 - join()
-- pop()
-- push()
-- shift()
-- unshift()
-- splice()
 - concat()
-- slice()
 - includes()
 - join()
 - findIndex( )
