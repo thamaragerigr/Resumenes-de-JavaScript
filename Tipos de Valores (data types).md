@@ -1,10 +1,8 @@
+# 💡Lección 1: Tipos de Valores (data types)
 
-#  💡Lección 1: Tipos de Valores (data types)
-----
-##  Valores
-   En **JavaScript**, la información es almacenada en **valores/values**. Aunque todos los valores esten hechos a partir de ‘bits’, su papel dependerá del tipo al que corresponda. 
+## 
 
-Los tipos de data o valores pueden dividirse en dos grupos: 
+Los tipos de data o valores pueden dividirse en dos grupos:
 
 * [Primitivos](#Primitivos) *(Primitive data types)*
    1. [Números](#Números)

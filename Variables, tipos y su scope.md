@@ -11,7 +11,7 @@
 
 ## Variables
 
-Una **variable** es un elemento que se emplea para almacenar y hacer referencia a otro valor. Visto desde otro modo, son como **jarrones que puedes etiquetar 🏷️** y **guardar lo que necesites**. Gracias a ellas, se pueden codificar "programas genéricos", es decir, programas que funcionan siempre igual sin importar que los valores cambien.
+Una **variable** es un elemento que se emplea para almacenar y hacer referencia a otro valor. Visto desde otro modo, son como **jarrones que puedes etiquetar 🏷️** y **guardar lo que necesites**. 
 
 A la hora de programar, `var`, `let` y `const` tienen ciertas diferencias que debemos conocer. Para ello es necesario tener claro el espacio en el que se encuentran y su entorno, es decir, el **'scope'**.
 
@@ -36,15 +36,14 @@ De este modo, la locación en donde una variable es definida dictará donde tene
           export { ejemplo, toList, take };
 
           // en app.js
-         import { ejemplo, toList, toList } from "./ejemplo";
+         import { ejemplo, toList, take } from "./ejemplo";
 
 - **function scope :** Significa que los parametros y variables definidas en una funcion son visibles solo dentro de la misma, fuera de ella no se puede acceder a ellos.
 
         function hazAlgo(){
           let algo = 1;
-          console.log(algo);
         }
-        hazAlgo(); //undefined
+        console.log(algo); //Uncaught ReferenceError
 
 - **block scope :** O también **scope de bloque**, se define por los **{ }**. Pero, ¿qué es un bloque? básicamente una estructura de código creada por llaves.
 
@@ -168,5 +167,5 @@ Y para resumir:
 | Tipo de variable | Características                                                                                                                 | Scope          |
 | ---------------- | ------------------------------------------------------------------------------------------------------------------------------- | -------------- |
 | Var              | Nos permite mutar el valor de una variable en cualquier punto. También son 'hoisted'                                            | Function Scope |
-| Let              | Crea un scope y evita que podamos sobre escribir valores fuera de su scope. También se puede cambiar su valor. No son 'hoisted' | Block Scope    |
-| Const            | Fue pensado para asignar valores que no queremos muta y que sabemos que son constantes. No son 'hoisted'                        | Block Scope    |
+| Let              | Pueden mutar el 'binding' que tiene con su valor asignado. No son 'hoisted' | Block Scope    |
+| Const            | Fue pensado para asignar valores que no queremos mutar y que sabemos que son constantes. No son 'hoisted'                        | Block Scope    |
