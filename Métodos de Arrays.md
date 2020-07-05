@@ -1,6 +1,6 @@
 # Métodos de Arrays
 
-### forEach(🍑)
+## forEach(🍑)
 
 Método de arrays, acepta una callback y lo ejecuta en cada elemento del array
 
@@ -33,7 +33,7 @@ Utilizar ‘for of’ daría el mismo resultado:
     console.log(n*3);
     }
 
-### map(🗺️)
+## map(🗺️)
 
 Crea un nuevo array con el resultado de haber llamado una callback en cada elemento del array.
 
@@ -67,7 +67,7 @@ Se podría hacer lo mismo de manera manual, pero se tiene que crear el array pre
     doubles2.push(num*2);
     }
 
-### find(📍)
+## find(📍)
 
 Devuelve el valor del **primer elemento** del array que cumpla con los parámetros de la función.
 
@@ -114,7 +114,7 @@ Devuelve el valor del **primer elemento** del array que cumpla con los parámetr
     b.authors.includes('Neil Gaiman')
     ))
 
-### filter(👓)
+## filter(👓)
 
 Crea un **nuevo array** con todos los elementos que cumpla con los parámetros de la función.
 
@@ -127,7 +127,7 @@ Crea un **nuevo array** con todos los elementos que cumpla con los parámetros d
     const smallNums = nums.filter(n => n < 5);
     //4,3,2,1
 
-### some(🧑‍🤝‍🧑) & every(🤼)
+## some(🧑‍🤝‍🧑) & every(🤼)
 
 Ambos son métodos **booleanos** (devuelven true o false).
 
@@ -148,7 +148,7 @@ Ambos son métodos **booleanos** (devuelven true o false).
     const someStartWithD = words.some(word => word[0] ==='d');
     //true
 
-### sort(🗂️)
+## sort(🗂️)
 
     const prices = [400, 30,99,35,12];
     prices.sort();
@@ -177,7 +177,7 @@ Para personalizar el método .sort() se tiene que agregar una función comparado
 
 > IMPORTANTE: sort hace un update del array, NO crea uno diferente con el nuevo orden
 
-### reduce(♻️)
+## reduce(♻️)
 
 Ejecuta una función reductiora en cada elemento del array, resultando en un solo valor.
 
@@ -228,7 +228,7 @@ También se puede especificar el valor con el que comienza el reduce
     return sum + currVal;
     },1000)
 
-### pop(🍿)
+## pop(🍿)
 
 Remueve el último elemento de un array y devuelve ese elemento. Cambia la longitud del array.
 
@@ -236,7 +236,7 @@ Remueve el último elemento de un array y devuelve ese elemento. Cambia la longi
     console.log(gatos.pop()); // 'Mini'
     console.log(gatos); // ['Bob', 'Willy']
 
-### push(🚲)
+## push(🚲)
 
 Añade uno o más elementos al final de un array y a diferencia de pop(), devuelve la nueva longitud del array
 
@@ -245,7 +245,7 @@ Añade uno o más elementos al final de un array y a diferencia de pop(), devuel
     console.log(cuenta); // 4
     console.log(animales); // ['cerdo', 'cabra', 'oveja', 'vaca]
 
-### shift(➖)
+## shift(➖)
 
 Remueve el primer elemento de un array y devuelve ese elemento. Cambia la longitud del array.
 
@@ -253,7 +253,7 @@ Remueve el primer elemento de un array y devuelve ese elemento. Cambia la longit
     const eliminado = miPescado.shift(); 
     console.log('Elemento eliminado: ' + eliminado);  // "Elemento eliminado: ángel"
 
-### unshift(➕)
+## unshift(➕)
 
 Añade uno o más elementos al inicio  de un array y a diferencia de pop(), devuelve la nueva longitud del array
 
@@ -265,7 +265,7 @@ Añade uno o más elementos al inicio  de un array y a diferencia de pop(), devu
     console.log(array1);
     // expected output: Array [4, 5, 1, 2, 3]
 
-### splice(💅)
+## splice(💅)
 
 Cambia el contenido de un array eliminando elementos existentes y/o agregando nuevos elementos.
 
@@ -275,7 +275,7 @@ Cambia el contenido de un array eliminando elementos existentes y/o agregando nu
     console.log(months);
     // expected output: Array ["Jan", "Feb", "March", "April", "June"]
 
-### slice(🍰)
+## slice(🍰)
 
  Devuelve una copia de una parte del array dentro de un nuevo array empezando por inicio hasta fin (fin no incluido). El array original no se modificará.
 
