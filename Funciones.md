@@ -84,7 +84,7 @@ Son funciones que operan con otras. Estas pueden:
 
 ---
 
-### Preguntas¿?
+### Recap
 
 - Una función es un subprograma diseñado para ejecutar una tarea en particular.
 - Las declaraciones de las funciones son 'hoisted' - las inizializaciones no.
