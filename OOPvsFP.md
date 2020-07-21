@@ -1,6 +1,14 @@
 # Programación orientada a objetos🍐 vs Programación funcional🍎
 
-## Funtional Programing (FP)
+OOP vs FP es uno de los paradigmas más hablados en la programación. Pero primero ¿Qué era un paradigma?
+
+> Un paradigma de programación es un enfoque para resolver problemas usando algún lenguaje de programación o también podemos decir que es un método para resolver un problema usando herramientas y técnicas que están disponibles para nosotros siguiendo algún enfoque.
+
+Okay, entonces nos podemos quedar con que es un ‘enfoque’ o ‘método’ para resolver problemas al programar. Guay!🤠
+
+Pero ¿Cuáles son las principales diferencias? 🤔 Pues, aquí traigo una chuleta 🥩 de emergencia!
+
+## Funtional Programing (FP) o Programación funcional 🍎
 
 - Secuencia de operaciones.
 
@@ -14,7 +22,7 @@
 
 - Las funciones son ciudadanos de primera categoría.
 
-## Object Oriented Programing (OOP)
+## Object Oriented Programing (OOP) o Programación orientada a objetos 🍐
 
 - Organiza el software en base a 'data' u 'objetos', no funciones y lógica.
 
@@ -28,4 +36,12 @@
 
 **Lecturas interesantes:**
 
-[OOP vs FP (similitudes)](https://medium.com/@richardeng/oop-vs-fp-1a3da34d2030)
+- [OOP vs FP (similitudes)](https://medium.com/@richardeng/oop-vs-fp-1a3da34d2030)
+
+- [Anjana Vakil: Aprendiendo Programación Funcional con JavaScript — JSUnconf 2016](https://www.youtube.com/watch?v=e-5obm1G_FY)
+
+- [When programming, where should I use OOP and FP? What are the pros and cons of which approach?](https://www.quora.com/When-programming-where-should-I-use-OOP-and-FP-What-are-the-pros-and-cons-of-which-approach)
+
+✨¡Espero que te haya ayudado!✨
+
+[< Volver al índice](https://github.com/thamaragerigr/Resumenes-de-JavaScript)
