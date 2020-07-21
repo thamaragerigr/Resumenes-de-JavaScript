@@ -21,8 +21,9 @@
     <li><a href="./OOPvsFP.md">Programación orientada a objetos vs Programación funcional</a></li>
     <li><a href="./Promesas.md">Promesas</a></li>
     <li><a href="./Constructors.md">Constructors</a></li>
-    <li><a href="./Cómo funciona js.md">Cómo funciona js (Hoisting/Stack)</a></li>
+    <!-- <li><a href="./Cómo funciona js.md">Cómo funciona js (Hoisting/Stack)</a></li>
     <li><a href="./AsyncAwait.md">Async/ Await</a></li>
-    <li><a href="./Bonus: Git basics.md">Bonus: Git Basics</a></li>
+    <li><a href="./Bonus: Git basics.md">Bonus: Git Basics</a></li> -->
+     <li>Y continuará...</a></li>
  </ul>
   </div>
