@@ -1,7 +1,7 @@
 <div align="center">
   <h1>🍎 Resumenes de JavaScript 🍎</h1>
   
-   <p>¡Hola compañero cibernauta 👩‍🚀! He creado este repositorio con una recopilación de temas y conceptos de JavaScript que he resumido. Eres libre de usarlos y estudiar con ellos (si ves algún error o algo que mejorar, no dudes en hacer un pull request o ¡mandarme un dm en  <a class="header-badge" target="_blank" href="https://twitter.com/gerig_thamara">
+   <p>¡Hola compañerx cibernauta 👩‍🚀! He creado este repositorio con una recopilación de temas y conceptos de JavaScript que he resumido. Eres libre de usarlos y estudiar con ellos (si ves algún error o algo que mejorar, no dudes en hacer un pull request o ¡mandarme un dm en  <a class="header-badge" target="_blank" href="https://twitter.com/gerig_thamara">
    twitter</a>!)</p>
 
    <p>También estoy construyendo otro 
