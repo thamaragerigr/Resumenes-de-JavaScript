@@ -247,12 +247,12 @@ Devuelve una copia de una parte del array dentro de un nuevo array empezando por
     const miOrden = ['🥧', '🎂', '🍩', '🧁', '🍮']
 
     const laOrdenDeMiHermana = miOrden.slice(1, 3)
-    
+
     // ['🎂','🍩']
 
-    ¡Y todavía faltan más!
+¡Y todavía faltan más!
 
-    ✨¡Espero que te haya ayudado!✨
+✨¡Espero que te haya ayudado!✨
 
 [< Volver al índice](https://github.com/thamaragerigr/Resumenes-de-JavaScript)
 
