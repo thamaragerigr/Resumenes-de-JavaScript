@@ -91,3 +91,7 @@ Son funciones que operan con otras. Estas pueden:
 - Las funciones son ejecutadas cuando son llamadas - invocadas.
 - Las funciones siempre devuelven un valor. Si no se especifica, esta devolverá undefined.
 - Las funciones son objetos.
+
+✨¡Espero que te haya ayudado!✨
+
+[< Volver al índice](https://github.com/thamaragerigr/Resumenes-de-JavaScript)
