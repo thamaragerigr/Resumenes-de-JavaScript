@@ -89,3 +89,6 @@ Una promesa tiene diferentes **estados**:
         console.log(error) // Los 🐱 molan // o // Los 🐶 molan
     })
 
+✨¡Espero que te haya ayudado!✨
+
+[< Volver al índice](https://github.com/thamaragerigr/Resumenes-de-JavaScript)
