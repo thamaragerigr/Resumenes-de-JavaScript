@@ -1,28 +1,31 @@
-# Métodos de Arrays
+# Métodos de Arrays (explicados con ✨emojis✨ 🤫)
+
+Aquí traigo un resumen de los métodos para Arrays más usados en js y explicados con emojis (porque con ellos ¡la vida es mejor!).
 
 ## forEach(🍑) *its peach*
 
 Acepta una **callback** y lo ejecuta en **cada elemento** del array
 
-        const cosasPeligrosas = [🔪,💣,🗡,🔫,🕷];
+        const cosasPeligrosas = ['🔪','💣','🗡','🔫','🕷'];
         cosasPeligrosas.forEach(function (cosaPeligrosa){
             console.log(cosaPeligrosa);
         })
         //🔪
         //💣
         //🗡
-        //🔫 ...
+        //🔫
+        //🕷
 
-Utilizar ‘for of’ daría el mismo resultado:
+Utilizar **‘for of’** daría el mismo resultado:
 
     for (let cosaPeligrosa of cosasPeligrosas){
-       console.log(cosaPeligrosa);
+        console.log(cosaPeligrosa);
     }
     //🔪
     //💣
     //🗡
     //🔫
-    …
+    //🕷
 
 ## map(🗺️)
 
@@ -38,7 +41,7 @@ Crea un **nuevo array** con el resultado de haber llamado una **callback** en ca
 
 Devuelve el valor del **primer elemento** del array que cumpla con los parámetros de la función.
 
-    lconst pelis = [
+    const pelis = [
         "👸🐸",
         "🔪🚿👩",
         "👑🎙️🎶",
@@ -52,14 +55,13 @@ Devuelve el valor del **primer elemento** del array que cumpla con los parámetr
 
 Crea un **nuevo array** con todos los elementos que cumpla con los parámetros de la función.
 
-    const num = [9,8,7,6,5,4,3,2,1];
-    const oods = nums.filter(n => {
-    return n % 2 ===2;//la callback devuelve true o false
-    //si devuelve true, n se incluye en el array filtrado
+    const cosasPerdidas = ['🔑',8,'🦄',6,'💄',4,'🧩',2,1];
+    const números = cosasPerdidas.filter(cosa => {
+        return typeof cosa === 'number' 
+        //la callback devuelve true o false
+        //si devuelve true, n se incluye en el array filtrado
     })
-    //9,7,5,3,1
-    const smallNums = nums.filter(n => n < 5);
-    //4,3,2,1
+    números // [8, 6, 4, 2, 1]
 
 ## some(🧑‍🤝‍🧑) & every(🤼)
 
@@ -67,20 +69,15 @@ Ambos son métodos **booleanos** (devuelven true o false).
 
 **Every** acepta una callback que en sí es boleano, prueba si todos los elementos de un array pasan los parámetros de la funcción.
 
-    const words = ['dog','dig','log','bag','wag'];
-    const all3Lets = words.every(word => word.length === 3);
-    const allEndInG = words.every(word =>{
-    const last = word.length -1;
-    return word[last] === 'g'
-    })
-    //true
+    const palabras = ['sal','mar','dar','sol','dos']
+    const palabrasDeTresLetras = palabras.every( palabra => palabra.length === 3 )
+    //true 👏👏
 
 **Some** es igual a Every pero devuelde true si alguno de los elementos del array cumple con los parámetros de la función.
 
-    const words = ['dog','dig','log','bag','wag'];
-    const all3Lets = words.every(word => word.length === 3);
-    const someStartWithD = words.some(word => word[0] ==='d');
-    //true
+    const palabras = ['sal','mar','dar','sol','dos']
+    const algunasComienzanPorS = palabras.some( palabra => palabra[0] ==='s' );
+    //true 👏👏
 
 ## sort(🗂️)
 
@@ -166,59 +163,64 @@ También se puede especificar el valor con el que comienza el reduce
 
 Remueve el último elemento de un array y devuelve ese elemento. Cambia la longitud del array.
 
-    let gatos = ['Bob', 'Willy', 'Mini'];
-    console.log(gatos.pop()); // 'Mini'
-    console.log(gatos); // ['Bob', 'Willy']
+    const cinema = ['🎥', '🎬', '🎞️'];
+    console.log(cinema.pop()); // '🎞️'
+    console.log(cinema); // ['🎥', '🎬']
 
 ## push(🚲)
 
 Añade uno o más elementos al final de un array y a diferencia de pop(), devuelve la nueva longitud del array
 
-    const animales = ['cerdo', 'cabra', 'oveja'];
-    const cuenta = animals.push('vaca');
-    console.log(cuenta); // 4
-    console.log(animales); // ['cerdo', 'cabra', 'oveja', 'vaca]
+    const animales = ['🐷', '🐮', '🐔']
+    const granja = animales.push('🚜')
+    console.log(granja); // 4
+    console.log(animales); // ['🐷', '🐮', '🐔','🚜']
 
 ## shift(➖)
 
 Remueve el primer elemento de un array y devuelve ese elemento. Cambia la longitud del array.
 
-    const miPescado = ['ángel', 'payaso', 'mandarín', 'cirujano'];
-    const eliminado = miPescado.shift(); 
-    console.log('Elemento eliminado: ' + eliminado);  // "Elemento eliminado: ángel"
+    const pescados = ['🦑','🐟', '🐠', '🐡']
+    const eliminado = pescados.shift()
+    console.log('Elemento eliminado: ' + eliminado); // "Elemento eliminado: '🦑'
 
 ## unshift(➕)
 
 Añade uno o más elementos al inicio  de un array y a diferencia de pop(), devuelve la nueva longitud del array
 
-    const array1 = [1, 2, 3];
-
-    console.log(array1.unshift(4, 5));
-    // expected output: 5
-
-    console.log(array1);
-    // expected output: Array [4, 5, 1, 2, 3]
+    const miMaleta = ['👔','👙', '🧦','👢','🧣']
+    console.log(miMaleta.unshift('🩲'));
+    // 6
+    console.log(miMaleta);
+    // Array ['🩲','👔','👙', '🧦','👢','🧣]
 
 ## splice(💅)
 
 Cambia el contenido de un array eliminando elementos existentes y/o agregando nuevos elementos.
 
-    const months = ['Jan', 'March', 'April', 'June'];
-    months.splice(1, 0, 'Feb');
-    // inserts at index 1
-    console.log(months);
-    // expected output: Array ["Jan", "Feb", "March", "April", "June"]
+    const menuDelDía = ['🥗', '🥩', '🍜', '🌮'];
+    menuDelDía.splice(1, 1, '🥪');
+    // (4) ["🥗", "🥪", "🍜", "🌮"]
+
+Acepta tres parámetro:
+
+    array.splice(index, howmany, item1, ….., itemX)
+
+- index: Indica el índice de donde se empezarán a remover los ítems (puedes usar números negativos para indicar que comience por el final del array).  
+- howmany (opcional): Indica el número de ítems que serán removidos.
+- item1, …, itemX (opcional): Son los elementos que serán añadidos al array.
 
 ## slice(🍰)
 
- Devuelve una copia de una parte del array dentro de un nuevo array empezando por inicio hasta fin (fin no incluido). El array original no se modificará.
+ Devuelve una copia de una parte del array dentro de un nuevo array empezando por inicio hasta fin (**fin no incluido**). El array original no se modificará.
 
-    const nombres = ['Rita', 'Pedro', 'Miguel', 'Ana', 'Vanesa'];
-    const masculinos = nombres.slice(1, 3);
+    const miOrden = ['🥧', '🎂', '🍩', '🧁', '🍮'];
+    const laOrdenDeMiHermana = miOrden.slice(1, 3);
+    // ['🎂','🍩']
 
-    // masculinos contiene ['Pedro','Miguel']
+    ¡Y todavía faltan más!
 
-- toString()
+<!-- - toString()
 - join()
 - concat()
 - includes()
@@ -226,4 +228,4 @@ Cambia el contenido de un array eliminando elementos existentes y/o agregando nu
 - findIndex( )
 - indexOf( )
 - fill( )
-- reverse()
+- reverse() -->
