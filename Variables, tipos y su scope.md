@@ -1,4 +1,4 @@
-# 💡 Lección 2: Variables, tipos y su scope
+# 💡 Variables, tipos y su scope
 
 1. [Variables](#Variables)
 2. [El scope](#El-scope)
@@ -11,7 +11,7 @@
 
 ## Variables
 
-Una **variable** es un elemento que se emplea para almacenar y hacer referencia a otro valor. Visto desde otro modo, son como **jarrones que puedes etiquetar 🏷️** y **guardar lo que necesites**. 
+Una **variable** es un elemento que se emplea para almacenar y hacer referencia a otro valor. Visto desde otro modo, son como **jarrones que puedes etiquetar 🏷️** y **guardar lo que necesites**.
 
 A la hora de programar, `var`, `let` y `const` tienen ciertas diferencias que debemos conocer. Para ello es necesario tener claro el espacio en el que se encuentran y su entorno, es decir, el **'scope'**.
 
@@ -20,6 +20,17 @@ A la hora de programar, `var`, `let` y `const` tienen ciertas diferencias que de
 El **‘scope’** se define como el espacio de visibilidad de una variable, es decir, que no es posible verla y acceder a su valor fuera del scope en el que fue declarada.
 
 De este modo, la locación en donde una variable es definida dictará donde tenemos acceso a ella. JavaScript tiene:
+
+- **lexical scope :** Es el scope que se determina durante el *‘compile-time’*(su nombre viene del *‘lexing’* durante el tiempo de compilación). De modo que **las variables solo pueden ser llamadas en el bloque de código en el que han sido declaradas**. Aquí señalo un artículo que lo explica mucho mejor : [https://astronautweb.co/javascript-lexical-scope/](What is Lexical Scope Anyway?)
+
+       function externa(){
+          let serie = 'Paquita Salas';
+          function interna(){
+             console.log(serie.toUpperCase())//Esta funcion es capaz de acceder a los valores de la funcion que la contiene.
+           }
+          interna();
+          //PAQUITA SALAS
+        }
 
 - **global scope :** Variables definidas fuera de cualquier función, bloque (block) o module scope.
 
@@ -55,17 +66,6 @@ De este modo, la locación en donde una variable es definida dictará donde tene
         //'global scope'
 
 > Aquí el valor de a cuando es igual a 'block scope' se encuentra aislado en el block scope, mientras que cuando es igual a 'global scope', su scope es global!
-
-- **lexical scope :** Es el acceso que tienen funciones internas a variables de la funcion que la contiene.
-
-       function externa(){
-          let serie = 'Paquita Salas';
-          function interna(){
-             console.log(serie.toUpperCase())//Esta funcion es capaz de acceder a los valores de la funcion que la contiene.
-           }
-          interna();
-          //PAQUITA SALAS
-        }
 
 Ahora que hemos definido los diferentes tipos de scope podemos comenzar a hablar de `var`, `let`y `const`! 🥳🥳
 

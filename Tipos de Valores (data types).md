@@ -44,7 +44,7 @@ Existen dos valores numéricos especiales:
 
     console.log( NaN == NaN)//false
 
-### Cadenas de texto
+### Cadenas de texto ⛓️
 
 Los valores textuales en JavaScript representan una **serie de carácteres** dentro de una **cadena** *('string')*. Se escriben con comillas alrededor:
 
@@ -62,7 +62,7 @@ También existen los **template literals**, los cuales permiten introducir otros
 
        `half of 100 is ${100/2}`
 
-### Booleans
+### Booleans ✨
 
 Son valores que distinguen entre dos posibilidades únicamente, `true` y `false`
 
@@ -79,7 +79,7 @@ Son valores que distinguen entre dos posibilidades únicamente, `true` y `false`
 
 **Valores Falsy**: El único valor numérico *falsy* es el 0 (sin comillas!). Tambien 0n, null, undefined, NaN, el `false` booleano y las comillas vacías ( ' ', " " ).
 
-### Undefined
+### Undefined 🤷
 
  Se refiere a las variables a las que todavía no se les ha asignado un valor.
 
@@ -87,7 +87,7 @@ Son valores que distinguen entre dos posibilidades únicamente, `true` y `false`
     console.log(firstName)
     //undefined 
 
-### Null
+### Null 🙅‍♂️
 
  Son variables o valores vacios.
 
@@ -95,7 +95,7 @@ Son valores que distinguen entre dos posibilidades únicamente, `true` y `false`
      console.log(empty) 
      //null 
 
-### Symbol
+### Symbol 💫
 
 Representa un identificador único. Son constantes que tienen algunas propiedades extras, que nos permiten trabajar mejor en debug y guardar valores.
 
@@ -151,5 +151,7 @@ Es una colección de datos relacionados y / o funcionalidad (que generalmente co
       alert('Hola, Soy '+ this.nombre[0] + '. ');
       }
     };
+
+✨¡Espero que te haya ayudado!✨
 
 [< Volver al índice](https://github.com/thamaragerigr/Resumenes-de-JavaScript)
