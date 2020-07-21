@@ -151,3 +151,5 @@ Es una colección de datos relacionados y / o funcionalidad (que generalmente co
       alert('Hola, Soy '+ this.nombre[0] + '. ');
       }
     };
+
+[< Volver al índice](https://github.com/thamaragerigr/Resumenes-de-JavaScript)
