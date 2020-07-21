@@ -54,6 +54,7 @@ De este modo, la locación en donde una variable es definida dictará donde tene
         function hazAlgo(){
           let algo = 1;
         }
+
         console.log(algo); //Uncaught ReferenceError
 
 - **block scope :** O también **scope de bloque**, se define por los **{ }**. Pero, ¿qué es un bloque? básicamente una estructura de código creada por llaves.
@@ -62,10 +63,11 @@ De este modo, la locación en donde una variable es definida dictará donde tene
         {
           let a = 'block scope';
         }
+
         console.log(a);
         //'global scope'
 
-> Aquí el valor de a cuando es igual a 'block scope' se encuentra aislado en el block scope, mientras que cuando es igual a 'global scope', su scope es global!
+> 🤓 Aquí el valor de a cuando es igual a 'block scope' se encuentra aislado en el block scope, mientras que cuando es igual a 'global scope', su scope es global!
 
 Ahora que hemos definido los diferentes tipos de scope podemos comenzar a hablar de `var`, `let`y `const`! 🥳🥳
 
@@ -84,7 +86,7 @@ Si intentamos acceder a su valor antes de que se asigne, obtendremos **undefined
      console.log(v); // undefined
      var v = 0;
 
-> Si el hoisting no sucediera, la consola devolvería un 'ReferenceError: v is not defined'.
+> 🤓 Si el hoisting no sucediera, la consola devolvería un 'ReferenceError: v is not defined'.
 
 Todo esto muy bien pero el problema de `var` es el scope que genera, es decir el ámbito que crea para la variable en cuestión ya que **su scope esta definido por la función (function scope).**
 
@@ -158,7 +160,7 @@ Aquí se puede observar cómo valores declarados con `const` si pueden ser mutad
 
 Para decidir es recomendado seguir las siguientes dos reglas:
 
-- Prefiere usar `const` ya que indica un binding inmutable y que el valor de la variable no cambiará.
+- Intenta usar `const` como default ya que indica un binding inmutable y que el valor de la variable no cambiará.
 
 - Usa `let`cuando no puedas usar const`.
 
