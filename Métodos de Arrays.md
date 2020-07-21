@@ -220,6 +220,10 @@ Acepta tres parámetro:
 
     ¡Y todavía faltan más!
 
+    ✨¡Espero que te haya ayudado!✨
+
+[< Volver al índice](https://github.com/thamaragerigr/Resumenes-de-JavaScript)
+
 <!-- - toString()
 - join()
 - concat()
