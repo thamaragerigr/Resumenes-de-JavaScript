@@ -171,3 +171,7 @@ Y para resumir:
 | Var              | Nos permite mutar el valor de una variable en cualquier punto. También son 'hoisted'                                            | Function Scope |
 | Let              | Pueden mutar el 'binding' que tiene con su valor asignado. No son 'hoisted' | Block Scope    |
 | Const            | Fue pensado para asignar valores que no queremos mutar y que sabemos que son constantes. No son 'hoisted'                        | Block Scope    |
+
+✨¡Espero que te haya ayudado!✨
+
+[< Volver al índice](https://github.com/thamaragerigr/Resumenes-de-JavaScript)
