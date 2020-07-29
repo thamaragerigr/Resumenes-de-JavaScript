@@ -250,7 +250,7 @@ Devuelve una copia de una parte del array dentro de un nuevo array empezando por
 
     // ['🎂','🍩']
     
-## toString(⛓️)
+<!-- ## toString(⛓️)
 
 Devuelve una cadena que representa al objeto.
 
@@ -263,6 +263,7 @@ Devuelve una cadena que representa al objeto.
     comidaDelLunes = new Comida("🥗","🍝","🍧")
 
     comidaDelLunes.toString() //devuelve [object Object]
+    -->
 
 ¡Y todavía faltan más!
 
