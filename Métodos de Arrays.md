@@ -249,6 +249,21 @@ Devuelve una copia de una parte del array dentro de un nuevo array empezando por
     const laOrdenDeMiHermana = miOrden.slice(1, 3)
 
     // ['🎂','🍩']
+    
+<!-- ## toString(⛓️)
+
+Devuelve una cadena que representa al objeto.
+
+    function Comida( entrante, platoPrincipal, postre ) {
+       this.entrante = entrante
+       this.platoPrincipal = platoPrincipal
+       this.postre = postre
+    }
+
+    comidaDelLunes = new Comida("🥗","🍝","🍧")
+
+    comidaDelLunes.toString() //devuelve [object Object]
+    -->
 
 ¡Y todavía faltan más!
 
