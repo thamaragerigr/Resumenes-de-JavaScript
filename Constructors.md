@@ -57,4 +57,4 @@ JavaScript Inheritance
 In JavaScript, we can create classes where the properties can be included in the properties of a child class.
 So, we can have a high-level class that contains the properties that are common to all the child classes, and the child class can have its own special properties that are not in any other classes.  
 
-with the èxtends`keyword -->
+with the èxtends`keyword  https://levelup.gitconnected.com/using-classes-in-javascript-e677d248bb6e-->
