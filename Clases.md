@@ -2,13 +2,13 @@
 
 ## ¿Qué es una clase en JavaScript?
 
-- Es una sintáxsis añadida a ES6 que nos permite utilizar la herencia de prototipo, similar a otros lenguajes orientados a objetos (OOP).
+- Es una sintáxsis añadida a ES6 que nos permite utilizar **la herencia de prototipo**, similar a otros lenguajes **orientados a objetos** (OOP).
 
 > Recordemos que ES6 se refiere a la versión 6 de ECMA Script (el nombre estandarizado para JavaScript) sacado en el 2015.
 
 - Para declarar una nueva clase utilizamos la palabra clave `class`.
 
-- Son funciones normales de Javascript pero que permiten que sea más sencillo declarar objetos y heredar complejos.
+- Son **funciones normales** de Javascript pero que permiten que sea más sencillo **declarar objetos y heredar de ellos**.
 
 - Ya que son funciones, como cualquier otra, pueden ser **'class expressions'** o **'class declarations'**. Las **'class declaration'** no pueden ser _'hoisted'_, lo que significa que no pueden ser usadas antes de ser definidas en el código.
 
@@ -29,13 +29,13 @@
 
 > OOP significa Objecto Oriented Programming y es un paradigma en la programación tomando en cuenta el enfoque que se le da al código. [Ver más al respecto](https://github.com/thamaragerigr/Resumenes-de-JavaScript/blob/master/OOPvsFP.md).
 
-- Las clases sirven de 'plantillas' para crear nuevos objetos.
+- Las clases sirven de ***'plantillas'*** para crear nuevos objetos.
 
 - Se utilizan para crear herencias entre objetos, es decir, que puedes crear clases donde las propiedades sean heredadas por las clases *'hijas'*. Lo que permite que podamos crear clases de alto nivel que contengan propiedades comunes entre las hijas, y estas puedan tener otras exclusivas de ellas.
 
 ## ¿Qué es un constructor?
 
-- Las clases en JavaScript tienen un 'constructor', el cual es un método especial para crear e inicializar un objeto creado a partir de una clase.
+- Las clases en JavaScript tienen un `constructor`, el cual es un método especial para crear e **inicializar un objeto creado a partir de una clase**.
 
 - Un constructor puede utilizar la palabra clave **super** para llamar al constructor de una clase padre.
 
@@ -65,9 +65,9 @@
 
 ## ¿Qué son getters y setters? ¿Cuándo usar cada uno?
 
-- Getters son métodos que te permiten coger informacion de una clase. Se denotan con la palabra `get`
+- Getters son métodos que te permiten **coger informacion de una clase**. Se denotan con la palabra `get`
 
-- Setters te permiten cambiar propiedades dentro de una clase. Se denotan con la palabra 'set'
+- Setters te permiten **cambiar propiedades dentro de una clase**. Se denotan con la palabra 'set'
 
 <!-- with the èxtends`keyword https://levelup.gitconnected.com/using-classes-in-javascript-e677d248bb6e--> 
 
