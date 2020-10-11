@@ -21,7 +21,7 @@ Los tipos de data o valores pueden dividirse en dos grupos:
 
   Los tipos de datos **Primitivos son inmutables**, es decir, que no pueden ser modificados una vez que son creados.
 
-### Números🧮
+### Números 🧮
 
   JavaScript tiene solo un tipo de **valor numérico**. Pueden ser positivos o negativos, enteros o decimales.
 
@@ -32,27 +32,31 @@ Existen dos valores numéricos especiales:
 
 **Infinity/-Infinity** : valor infinito (también pude ser negativo igual que el -0).
 
-    1/0//Infinity
-    -0//-0
+    1/0 //Infinity
+
+    -0 //-0
 
 **NaN**:  valor numérico para representar algo que no es un número.
 
     0/0 //NaN
-    1 + NaN//NaN
+
+    1 + NaN //NaN
 
 > 🤓 Nota: NaN es el único valor que no es igual a si mismo. Esto se debe a que NaN representa el resultado de una ‘nonsensical computation’, por lo tanto no es igual a cualquier otra de su tipo.
 
-    console.log( NaN == NaN)//false
+    console.log(NaN == NaN)//false
 
 ### Cadenas de texto ⛓️
 
 Los valores textuales en JavaScript representan una **serie de carácteres** dentro de una **cadena** *('string')*. Se escriben con comillas alrededor:
 
      'Loquesea'
-     "Me gustan las mandarinas"
+
+     "🍊 Me gustan las mandarinas 🍊"
+
      `¡¡A tope con el JavaScript!!`
 
-> ⚠️ Se pueden utilizar comillas simple, dobles o 'backticks'( `` ), siempre y cuando se use el mismo tipo al abrir y cerrar.
+> 🤓 Se pueden utilizar comillas simple, dobles o 'backticks'( `` ), siempre y cuando se use el mismo tipo al abrir y cerrar.
 
 Las cadenas de texto pueden ser **concatenadas**, es decir juntarlas entre si usando el símbolo de +:
 
@@ -60,14 +64,15 @@ Las cadenas de texto pueden ser **concatenadas**, es decir juntarlas entre si us
 
 También existen los **template literals**, los cuales permiten introducir otros valores dentro de la misma cadena de texto:
 
-       `half of 100 is ${100/2}`
+     `La mitad de 100 es ${100/2}`
 
 ### Booleans ✨
 
-Son valores que distinguen entre dos posibilidades únicamente, `true` y `false`
+Son valores que distinguen entre dos posibilidades únicamente, `true` y `false`.
 
      console.log(3 > 2)
      //true
+
      console.log('itchy' = 'scratchy')
      //false
 
@@ -75,7 +80,7 @@ Son valores que distinguen entre dos posibilidades únicamente, `true` y `false`
 
  **Valores Truthy**: Todos los valores son truthy (números positivos y negativos, todas las cadenas de texto y el `true` booleano) a menos de que sean definidos como falsy o en el caso de algunas excepciones.
 
->⚠️ Algunos valores truthy interesantes son : el cero y la palabra false como cadenas de texto ('0', 'false'). También lo son un array vacio ([]), un objeto vacio ({}) y una función vacía ( function(){} ).
+>⚠ 🤓 Algunos valores truthy interesantes son : el cero y la palabra false como cadenas de texto ('0', 'false'). También lo son un array vacio ([]), un objeto vacio ({}) y una función vacía ( function(){} ).
 
 **Valores Falsy**: El único valor numérico *falsy* es el 0 (sin comillas!). Tambien 0n, null, undefined, NaN, el `false` booleano y las comillas vacías ( ' ', " " ).
 
@@ -84,6 +89,7 @@ Son valores que distinguen entre dos posibilidades únicamente, `true` y `false`
  Se refiere a las variables a las que todavía no se les ha asignado un valor.
 
     let firstName
+
     console.log(firstName)
     //undefined 
 
@@ -92,6 +98,7 @@ Son valores que distinguen entre dos posibilidades únicamente, `true` y `false`
  Son variables o valores vacios.
 
      let empty = null
+     
      console.log(empty) 
      //null 
 
@@ -114,23 +121,23 @@ Las variables a las que se les asignan estos valores obtienen una referencia que
 
 ### Arrays 👩‍👩‍👦‍👦
 
-Son colecciones ordendas de valores, cada valor dentro de ellos posee una posición númerica (**index**).Son utitlizados para almacenar listas de elementos y acceder a ellos en una misma variable.
+Son colecciones ordendas de valores, cada valor dentro de ellos posee una posición númerica (**index**). Son utitlizados para almacenar listas de elementos y acceder a ellos en una misma variable.
 
     let frutasGuays = [“🍏”, “🍓”, “🍊”];
 
 Tambíen se pueden reemplazar objetos, o agregar o quitar elementos.
 
-     let frutasGuays[2] = ‘Mora’; // [“🍏”, “🍓”, “🍇”];
+     let frutasGuays[2] = "🍇"; // [“🍏”, “🍓”, “🍇”];
 
-     let frutasGuays[3] = ‘Banana’; // [“🍏”, “🍓”, “🍇”, “🍌”];
+     let frutasGuays[3] = "🍌"; // [“🍏”, “🍓”, “🍇”, “🍌”];
 
 Dentro de estos se pueden almacenar cualquier tipo de valor, ya sean strings, booleans o números, incluso objetos u otros arrays.
 
-    let cosas = [ 82, true, 'Domingo'];
+    let cosasImportantes = [ 82, true, 'Domingo'];
 
 ### Funciones ⚙️
 
-Una función es conjunto de **declaraciones que realiza una tarea o calcula un valor.**
+Una función es conjunto de **declaraciones que realizan una tarea o calculan un valor.**
 
 Son objetos de primera clase, es decir, son objetos y se pueden manipular y transmitir al igual que cualquier otro objeto. Concretamente son objetos `Function`.
 
@@ -154,4 +161,4 @@ Es una colección de datos relacionados y / o funcionalidad (que generalmente co
 
 ✨¡Espero que te haya ayudado!✨
 
-[< Volver al índice](https://github.com/thamaragerigr/Resumenes-de-JavaScript)
+[<- Volver al índice](https://github.com/thamaragerigr/Resumenes-de-JavaScript)
