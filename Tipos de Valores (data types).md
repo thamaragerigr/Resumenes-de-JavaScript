@@ -4,18 +4,18 @@ En **JavaScript**, la información es almacenada en valores/values. Aunque todos
 
 Los tipos de data o valores pueden dividirse en dos grupos:
 
-* [Primitivos](#-Primitivos-) *(Primitive data types)*
-   1. [Números](#-Números)
-   2. [Cadenas de texto](#-Cadenas-de-texto) *(Strings)*
-   3. [Booleans](#-Booleans)
-   4. [Undefined](#-Undefined)
-   5. [Null](#-Null)
-   6. [Symbol](#-Symbol)
+* [Primitivos](#-primitivos-primitive-data-types) *(Primitive data types)*
+   1. [Números](#-números)
+   2. [Cadenas de texto](#%EF%B8%8F-cadenas-de-texto) *(Strings)*
+   3. [Booleans](#-booleans)
+   4. [Undefined](#-undefined)
+   5. [Null](#%EF%B8%8F-null)
+   6. [Symbol](#-symbol)
 
-* [No Primitivos](#-No-Primitivos) *(Non-primitive data types)*
-   1. [Arrays](#-Arrays)
-   2. [Funciones](#-Funciones)
-   3. [Objetos](#-Objetos)
+* [No Primitivos](#-no-primitivos-non-primitive-data-types) *(Non-primitive data types)*
+   1. [Arrays](#-arrays)
+   2. [Funciones](#%EF%B8%8F-funciones)
+   3. [Objetos](#-objetos)
 
 ## 🦖 Primitivos (Primitive data types)
 
