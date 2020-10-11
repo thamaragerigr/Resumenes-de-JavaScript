@@ -5,7 +5,7 @@ En **JavaScript**, la información es almacenada en valores/values. Aunque todos
 Los tipos de data o valores pueden dividirse en dos grupos:
 
 * [Primitivos](#Primitivos) *(Primitive data types)*
-   1. [Números](#Números)
+   1. [Números](#Números-🧮)
    2. [Cadenas de texto](#Cadenas-de-texto) *(Strings)*
    3. [Booleans](#Booleans)
    4. [Undefined](#Undefined)
@@ -98,7 +98,7 @@ Son valores que distinguen entre dos posibilidades únicamente, `true` y `false`
  Son variables o valores vacios.
 
      let empty = null
-     
+
      console.log(empty) 
      //null 
 
