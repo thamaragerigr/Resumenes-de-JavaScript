@@ -4,24 +4,24 @@ En **JavaScript**, la información es almacenada en valores/values. Aunque todos
 
 Los tipos de data o valores pueden dividirse en dos grupos:
 
-* [Primitivos](#Primitivos) *(Primitive data types)*
-   1. [Números](#Números-)
-   2. [Cadenas de texto](#Cadenas-de-texto) *(Strings)*
-   3. [Booleans](#Booleans)
-   4. [Undefined](#Undefined)
-   5. [Null](#Null)
-   6. [Symbol](#Symbol)
+* [Primitivos](#-Primitivos-) *(Primitive data types)*
+   1. [Números](#-Números)
+   2. [Cadenas de texto](#-Cadenas-de-texto) *(Strings)*
+   3. [Booleans](#-Booleans)
+   4. [Undefined](#-Undefined)
+   5. [Null](#-Null)
+   6. [Symbol](#-Symbol)
 
-* [No Primitivos](#No-Primitivos) *(Non-primitive data types)*
-   1. [Arrays](#Arrays)
-   2. [Funciones](#Funciones)
-   3. [Objetos](#Objetos)
+* [No Primitivos](#-No-Primitivos) *(Non-primitive data types)*
+   1. [Arrays](#-Arrays)
+   2. [Funciones](#-Funciones)
+   3. [Objetos](#-Objetos)
 
-## Primitivos 🦖 (Primitive data types)
+## 🦖 Primitivos (Primitive data types)
 
   Los tipos de datos **Primitivos son inmutables**, es decir, que no pueden ser modificados una vez que son creados.
 
-### Números 🧮
+### 🧮 Números
 
   JavaScript tiene solo un tipo de **valor numérico**. Pueden ser positivos o negativos, enteros o decimales.
 
@@ -46,7 +46,7 @@ Existen dos valores numéricos especiales:
 
     console.log(NaN == NaN)//false
 
-### Cadenas de texto ⛓️
+### ⛓️ Cadenas de texto
 
 Los valores textuales en JavaScript representan una **serie de carácteres** dentro de una **cadena** *('string')*. Se escriben con comillas alrededor:
 
@@ -66,7 +66,7 @@ También existen los **template literals**, los cuales permiten introducir otros
 
      `La mitad de 100 es ${100/2}`
 
-### Booleans ✨
+### ✨ Booleans
 
 Son valores que distinguen entre dos posibilidades únicamente, `true` y `false`.
 
@@ -84,7 +84,7 @@ Son valores que distinguen entre dos posibilidades únicamente, `true` y `false`
 
 **Valores Falsy**: El único valor numérico *falsy* es el 0 (sin comillas!). Tambien 0n, null, undefined, NaN, el `false` booleano y las comillas vacías ( ' ', " " ).
 
-### Undefined 🤷
+### 🤷 Undefined
 
  Se refiere a las variables a las que todavía no se les ha asignado un valor.
 
@@ -93,7 +93,7 @@ Son valores que distinguen entre dos posibilidades únicamente, `true` y `false`
     console.log(firstName)
     //undefined 
 
-### Null 🙅‍♂️
+### 🙅‍♂️ Null
 
  Son variables o valores vacios.
 
@@ -102,7 +102,7 @@ Son valores que distinguen entre dos posibilidades únicamente, `true` y `false`
      console.log(empty) 
      //null 
 
-### Symbol 💫
+### 💫 Symbol
 
 Representa un identificador único. Son constantes que tienen algunas propiedades extras, que nos permiten trabajar mejor en debug y guardar valores.
 
@@ -113,13 +113,13 @@ Representa un identificador único. Son constantes que tienen algunas propiedade
 
 ---
 
-## No Primitivos 👩‍💻 (Non-primitive data types)
+## 👩‍💻 No Primitivos (Non-primitive data types)
 
 Este tipo de valores pueden ser modificados y tienen la capacidad de mutar.
 
 Las variables a las que se les asignan estos valores obtienen una referencia que se guarda en la memoria (esta referencia apunta a la ubicación del objeto). Es decir, que las variables en realidad no contienen estos valores.
 
-### Arrays 👩‍👩‍👦‍👦
+### 👩‍👩‍👦‍👦 Arrays
 
 Son colecciones ordendas de valores, cada valor dentro de ellos posee una posición númerica (**index**). Son utitlizados para almacenar listas de elementos y acceder a ellos en una misma variable.
 
@@ -135,7 +135,7 @@ Dentro de estos se pueden almacenar cualquier tipo de valor, ya sean strings, bo
 
     let cosasImportantes = [ 82, true, 'Domingo'];
 
-### Funciones ⚙️
+### ⚙️ Funciones
 
 Una función es conjunto de **declaraciones que realizan una tarea o calculan un valor.**
 
@@ -145,7 +145,7 @@ Son objetos de primera clase, es decir, son objetos y se pueden manipular y tran
         instrucciones
      }
 
-### Objetos 🛸
+### 🛸 Objetos
 
 Es una colección de datos relacionados y / o funcionalidad (que generalmente consta de varias variables y funciones, que se denominan propiedades y métodos cuando están dentro de objetos).
 
