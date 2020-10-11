@@ -5,7 +5,7 @@ En **JavaScript**, la información es almacenada en valores/values. Aunque todos
 Los tipos de data o valores pueden dividirse en dos grupos:
 
 * [Primitivos](#Primitivos) *(Primitive data types)*
-   1. [Números](#Números-🧮)
+   1. [Números](#Números🧮)
    2. [Cadenas de texto](#Cadenas-de-texto) *(Strings)*
    3. [Booleans](#Booleans)
    4. [Undefined](#Undefined)
@@ -21,7 +21,7 @@ Los tipos de data o valores pueden dividirse en dos grupos:
 
   Los tipos de datos **Primitivos son inmutables**, es decir, que no pueden ser modificados una vez que son creados.
 
-### Números 🧮
+### Números🧮
 
   JavaScript tiene solo un tipo de **valor numérico**. Pueden ser positivos o negativos, enteros o decimales.
 
